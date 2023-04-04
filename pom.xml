@@ -10,9 +10,9 @@
 		<!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hr</groupId>
-	<artifactId>springboot-multi-tenant-application</artifactId>
+	<artifactId>springboot-multi-tenant-security</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-multi-tenant-application</name>
+	<name>springboot-multi-tenant-security</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 <!--		<java.version>1.8</java.version>-->
@@ -23,6 +23,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -37,6 +41,11 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
 		</dependency>
 	</dependencies>
 	<build>

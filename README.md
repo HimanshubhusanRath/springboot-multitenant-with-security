@@ -1,4 +1,4 @@
-# springboot-multi-tenant-app
+# springboot-multi-tenant-with-security
 This application implemnents the schema per tenant approach in a multi-tenant scenario.
 
 # Steps to test this application:

@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "4d608e82-7665-45e2-9673-39c9c9bd48b3",
+		"name": "TEMP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3398772"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "tenant_03",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8082/students/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"students",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-TenantID",
+						"value": "tenant_03",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8082/students/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"students",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

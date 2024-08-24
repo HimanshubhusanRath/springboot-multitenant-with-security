@@ -25,7 +25,6 @@ public class MultiTenantConfiguration {
     private String defaultTenant;
 
     @Bean
-    @ConfigurationProperties(prefix = "tenants")
     public DataSource datasource()
     {
         final Map<Object, Object> resolvedDatasources = new HashMap<>();
